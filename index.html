@@ -11,7 +11,7 @@
         <div class="apply_box">
             <h1>Job Application <span class="tittle_web">(Web)</span>
             </h1>
-            <form action="">
+            <form action="" onsubmit="return false">
                 <div class="form_container">
                     <div class="form_control">
                         <label for="first_name">First Name:</label>
@@ -58,10 +58,11 @@
                     </div>
                 </div>
                 <div class="button_container">
-                    <button type="submit">Apply Now</button>
+                    <button type="submit" onclick="execute()">Apply Now</button>
                 </div>
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
